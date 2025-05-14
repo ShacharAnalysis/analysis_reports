@@ -11,7 +11,7 @@ st.sidebar.success("Select a report to view above.")
 
 st.markdown(
     """
-    Hello and welcome! I'm a **Data Analyst** with a deep passion for uncovering insights 
+    Hello and welcome! my name is Shachar Atsami and I'm a **Data Analyst** with a deep passion for uncovering insights 
     and telling stories through data. This app is part of a **personal project** designed 
     to showcase both my analytical skills and my enthusiasm for exploring interesting datasets.
 
