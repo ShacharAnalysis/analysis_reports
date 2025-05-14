@@ -32,7 +32,7 @@ filtered_df = students_df[
 ]
 
 # Main Title
-st.title("📊 Student Habits & Performance Dashboard")
+st.title("Student Habits & Performance Dashboard")
 
 # Overview Metrics
 st.subheader("Overview Metrics")
