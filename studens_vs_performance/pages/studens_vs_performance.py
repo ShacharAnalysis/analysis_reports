@@ -8,7 +8,7 @@ st.set_page_config(page_title="Studens VS Performance Analysis", page_icon="📈
 # Load data from specified path
 @st.cache_data
 def load_data():
-    df = pd.read_csv("AnalysisEssentials/studens_vs_performance/student_habits_performance.csv")
+    df = pd.read_csv("studens_vs_performance/student_habits_performance.csv")
     return df
 
 students_df = load_data()
