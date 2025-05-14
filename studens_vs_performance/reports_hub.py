@@ -18,7 +18,7 @@ st.markdown(
     The app is built using **[Streamlit](https://streamlit.io/)** and is publicly accessible, 
     so feel free to explore, share, and interact!
 
-    ## 📊 Available Reports
+    ## Available Reports
 
     - **Students vs Performance**  
       Dive into an analysis of student habits and their correlation with academic performance. 
