@@ -25,6 +25,10 @@ st.markdown(
       We explore how factors like study time, parental education, and internet access relate 
       to student outcomes.
 
+    - **Cyber Threats vs Global Impact**
+    Explore how different types of cyberattacks have evolved over the past decade and their effects on countries, users, and financial systems.
+    This dashboard analyzes trends, vulnerabilities, and defensive strategies to uncover key insights in global cybersecurity.
+
     *(More reports coming soon!)*
 
     ---
