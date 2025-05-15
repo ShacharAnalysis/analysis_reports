@@ -3,14 +3,16 @@ import pandas as pd
 import plotly.express as px
 
 
+st.set_page_config(page_title="Cybersecurity Threats Dashboard", page_icon="🔒")
+st.title("\U0001F512 Global Cybersecurity Threats (2015–2024)")
+
 # Load data from specified path
 @st.cache_data
 def load_data():
     df = pd.read_csv("studens_vs_performance/Global_Cybersecurity_Threats_2015-2024.csv")
     return df
     
-st.set_page_config(page_title="Cybersecurity Threats Dashboard", page_icon="🔒")
-st.title("\U0001F512 Global Cybersecurity Threats (2015–2024)")
+df = load_data()
 
 # Sidebar filters
 st.sidebar.header("Filter Data")
