@@ -2,22 +2,16 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Cybersecurity Threats Dashboard")
+st.set_page_config(page_title="Cybersecurity Threats Dashboard", page_icon="📈")
 st.title("Global Cybersecurity Threats (2015–2024)")
 
-# Sidebar file uploader
-st.sidebar.header("Upload your dataset")
-uploaded_file = st.sidebar.file_uploader("Upload CSV file", type=["csv"])
-
+# Load data from specified path
 @st.cache_data
-def load_data(file):
-    df = pd.read_csv(file)
-    # Clean column names if needed
-    df.columns = df.columns.str.strip()
+def load_data():
+    df = pd.read_csv("studens_vs_performance/Global_Cybersecurity_Threats_2015-2024.csv")
     return df
 
-if uploaded_file:
-    df = load_data(uploaded_file)
+df = load_data()
 
     # Sidebar filters
     st.sidebar.header("Filter Data")
