@@ -9,7 +9,7 @@ def load_data():
     df = pd.read_csv("studens_vs_performance/Global_Cybersecurity_Threats_2015-2024.csv")
     return df
     
-st.set_page_config(page_title="Cybersecurity Threats Dashboard", layout="wide", page_icon="🔒")
+st.set_page_config(page_title="Cybersecurity Threats Dashboard", page_icon="🔒")
 st.title("\U0001F512 Global Cybersecurity Threats (2015–2024)")
 
 # Sidebar filters
